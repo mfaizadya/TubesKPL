@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Telyu\\Sems4\\KPL\\Tubes\\TubesKPL.csproj": {}
+    "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj": {}
   },
   "projects": {
-    "D:\\Telyu\\Sems4\\KPL\\Tubes\\TubesKPL.csproj": {
+    "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Telyu\\Sems4\\KPL\\Tubes\\TubesKPL.csproj",
-        "projectName": "TubesKPL",
-        "projectPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\TubesKPL.csproj",
+        "projectUniqueName": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj",
+        "projectName": "LoginAPI",
+        "projectPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj",
         "packagesPath": "C:\\Users\\RVA\\.nuget\\packages\\",
-        "outputPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\obj\\",
+        "outputPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,6 +67,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

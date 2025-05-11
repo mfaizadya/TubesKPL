@@ -1,0 +1,5 @@
+D:\Telyu\Sems4\KPL\Tubes\obj\Debug\net8.0\TubesKPL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Telyu\Sems4\KPL\Tubes\obj\Debug\net8.0\TubesKPL.AssemblyInfoInputs.cache
+D:\Telyu\Sems4\KPL\Tubes\obj\Debug\net8.0\TubesKPL.AssemblyInfo.cs
+D:\Telyu\Sems4\KPL\Tubes\obj\Debug\net8.0\TubesKPL.csproj.CoreCompileInputs.cache
+D:\Telyu\Sems4\KPL\Tubes\obj\Debug\net8.0\TubesKPL.sourcelink.json
