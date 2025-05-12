@@ -23,14 +23,21 @@ namespace LoginAPI.Controllers
         public ActionResult<Pelajar> Login([FromBody] LoginReq req)
         {
             int i;
-            for (i=0; i<daftarPelajar.Count; i++)
+
+            if (req == null || string.IsNullOrWhiteSpace(req.Username) || string.IsNullOrWhiteSpace(req.Password))
+            {
+                return BadRequest("Username dan password harus diisi.");
+            }
+
+            for (i = 0; i < daftarPelajar.Count; i++)
             {
                 if (req.Username == daftarPelajar[i].Username && req.Password == daftarPelajar[i].Password)
                 {
                     return daftarPelajar[i];
                 }
             }
-            return NotFound();
+
+            return Unauthorized("Username atau password salah");
         }
     }
 }

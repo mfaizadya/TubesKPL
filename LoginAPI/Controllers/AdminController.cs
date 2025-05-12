@@ -22,6 +22,10 @@ namespace LoginAPI.Controllers
         public ActionResult<Admin> Login([FromBody] LoginReq req)
         {
             int i;
+            if (req == null || string.IsNullOrWhiteSpace(req.Username) || string.IsNullOrWhiteSpace(req.Password))
+            {
+                return BadRequest("Username dan password harus diisi.");
+            }
             for (i = 0; i < daftarAdmin.Count; i++)
             {
                 if (daftarAdmin[i].Username == req.Username && daftarAdmin[i].Password == req.Password)
@@ -29,7 +33,7 @@ namespace LoginAPI.Controllers
                     return daftarAdmin[i];
                 }
             }
-            return NotFound();
+            return Unauthorized("Username atau password salah");
         }
     }
 }
