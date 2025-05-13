@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\TubesKPL\\TubesKPL\\TubesKPL.csproj": {}
   },
   "projects": {
@@ -12,12 +13,24 @@
         "projectPath": "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
         "packagesPath": "C:\\Users\\Faiz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\TubesKPL\\TubesKPL\\obj\\",
+=======
+    "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\AttemptReview.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\AttemptReview.csproj",
+        "projectName": "AttemptReview",
+        "projectPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\AttemptReview.csproj",
+        "packagesPath": "C:\\Users\\Rakan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Faiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rakan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,6 +45,161 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
+        "projectName": "LoginAPI",
+        "projectPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
+        "packagesPath": "C:\\Users\\Rakan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj",
+        "projectName": "TubesKPL",
+        "projectPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj",
+        "packagesPath": "C:\\Users\\Rakan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\obj\\",
+>>>>>>> Stashed changes
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+<<<<<<< Updated upstream
+          "C:\\Users\\Faiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Rakan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+<<<<<<< Updated upstream
+            "projectReferences": {}
+=======
+            "projectReferences": {
+              "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\AttemptReview.csproj": {
+                "projectPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\AttemptReview.csproj"
+              },
+              "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj": {
+                "projectPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj"
+              }
+            }
+>>>>>>> Stashed changes
           }
         },
         "warningProperties": {
