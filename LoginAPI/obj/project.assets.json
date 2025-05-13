@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj",
+      "projectUniqueName": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
       "projectName": "LoginAPI",
-      "projectPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\LoginAPI.csproj",
+      "projectPath": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
       "packagesPath": "C:\\Users\\RVA\\.nuget\\packages\\",
-      "outputPath": "D:\\Telyu\\Sems4\\KPL\\Tubes\\LoginAPI\\obj\\",
+      "outputPath": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

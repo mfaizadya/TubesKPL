@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="LoginAPI\**" />
+    <EmbeddedResource Remove="LoginAPI\**" />
+    <None Remove="LoginAPI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="LoginAPI\LoginAPI.csproj" />
+  </ItemGroup>
+
 </Project>
