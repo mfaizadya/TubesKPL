@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HObTQ89qmJA=",
+  "dgSpecHash": "TWDno6tr9qE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\naufa\\source\\repos\\TubesKPL\\TubesKPL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naufa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
