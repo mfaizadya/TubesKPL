@@ -8,12 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AttemptReview\**" />
     <Compile Remove="LoginAPI\**" />
+    <EmbeddedResource Remove="AttemptReview\**" />
     <EmbeddedResource Remove="LoginAPI\**" />
+    <None Remove="AttemptReview\**" />
     <None Remove="LoginAPI\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="AttemptReview\AttemptReview.csproj" />
     <ProjectReference Include="LoginAPI\LoginAPI.csproj" />
   </ItemGroup>
 

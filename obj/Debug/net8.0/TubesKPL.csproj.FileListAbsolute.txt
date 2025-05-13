@@ -32,3 +32,8 @@ C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\LoginAPI.dll
 C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\LoginAPI.pdb
 C:\Users\RVA\source\repos\TubesKPL\obj\Debug\net8.0\TubesKPL.csproj.AssemblyReference.cache
 C:\Users\RVA\source\repos\TubesKPL\obj\Debug\net8.0\TubesKPL.csproj.Up2Date
+C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\AttemptReview.deps.json
+C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\AttemptReview.runtimeconfig.json
+C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\AttemptReview.exe
+C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\AttemptReview.dll
+C:\Users\RVA\source\repos\TubesKPL\bin\Debug\net8.0\AttemptReview.pdb
