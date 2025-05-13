@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\attemptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:attemptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Attempt.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Attempt.cs",
-              "RelativeDocumentMoniker": "Attempt.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Attempt.cs",
-              "RelativeToolTip": "Attempt.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA0AAAApAAAAAAAAAA==",
+              "Title": "AttemptsService.cs",
+              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\AttemptsService.cs",
+              "RelativeDocumentMoniker": "AttemptsService.cs",
+              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\AttemptsService.cs",
+              "RelativeToolTip": "AttemptsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:17:24.497Z",
+              "WhenOpened": "2025-05-13T14:10:51.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginHelper.cs",
+              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginHelper.cs",
+              "RelativeDocumentMoniker": "LoginHelper.cs",
+              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginHelper.cs",
+              "RelativeToolTip": "LoginHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:02:49.943Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T07:08:05.632Z",
               "EditorCaption": ""

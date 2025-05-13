@@ -18,7 +18,7 @@ namespace TubesKPL
             };
         }
 
-        public static async Task SendLoginRequest(LoginReq loginReq, string loginAs)
+        public static async Task<string> SendLoginRequest(LoginReq loginReq, string loginAs)
         {
             var httpClient = new HttpClient();
 
@@ -37,33 +37,34 @@ namespace TubesKPL
                 }
 
 
-                    await HandleResponse(response, loginAs);
+                return await HandleResponse(response, loginAs);
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Terjadi error: {ex.Message}");
+                return null;
             }
         }
 
-        private static async Task HandleResponse(HttpResponseMessage response, string loginAs)
+        private static async Task<string> HandleResponse(HttpResponseMessage response, string loginAs)
         {
             if (response.IsSuccessStatusCode)
             {
                 string responseBody = await response.Content.ReadAsStringAsync();
                 if (loginAs == "admin")
                 {
-                    Console.WriteLine("Login berhasil! Data admin:");
+                    Console.WriteLine("Login berhasil!");
                 } else
                 {
-                    Console.WriteLine("Login berhasil! Data Pelajar:");
+                    Console.WriteLine("Login berhasil!");
                 }
-                    Console.WriteLine(responseBody);
+                return responseBody;
             }
             else
             {
                 Console.WriteLine($"Login gagal: {response.StatusCode}");
                 string responseBody = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(responseBody);
+                return null;
             }
         }
     }
