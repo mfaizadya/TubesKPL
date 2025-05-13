@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace TubesKPL
@@ -27,23 +28,28 @@ namespace TubesKPL
             var loginReq = LoginHelper.CreateLoginRequest(username,password);
 
             var loginResp = await LoginHelper.SendLoginRequest(loginReq,loginAs);
-
-            string pilih = "0";
-            while (pilih != "99")
+            if (loginResp != null)
             {
-                pilih = Menu();
-                switch (pilih)
+                LoginResponse loginData = JsonSerializer.Deserialize<LoginResponse>(loginResp);
+
+                Console.WriteLine($"Selamat datang {loginData.nama}!");
+                string pilih = "0";
+                while (pilih != "99")
                 {
-                    case "1":
-                        AttemptsService.AttemptsReview(loginAs, username);
-                        break;
-                    case "99":
-                        break;
-                    default:
-                        Console.WriteLine("Pilihan tidak valid, mohon input kembali.");
-                        break;
+                    pilih = Menu();
+                    switch (pilih)
+                    {
+                        case "1":
+                            AttemptsService.AttemptsReview(loginAs, loginData.username);
+                            break;
+                        case "99":
+                            break;
+                        default:
+                            Console.WriteLine("Pilihan tidak valid, mohon input kembali.");
+                            break;
+                    }
                 }
-            } 
+            }
         }
 
         static string Menu()

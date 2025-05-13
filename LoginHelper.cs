@@ -31,39 +31,29 @@ namespace TubesKPL
                 if (loginAs == "admin")
                 {
                     response = await httpClient.PostAsync("http://localhost:5209/api/admin/login", content);
-                } else
+                }
+                else
                 {
                     response = await httpClient.PostAsync("http://localhost:5209/api/pelajar/login", content);
                 }
 
-
-                return await HandleResponse(response, loginAs);
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine("Login berhasil!");
+                    return responseBody;
+                }
+                else
+                {
+                    Console.WriteLine($"Login gagal: {response.StatusCode}");
+                    string errorBody = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(errorBody);
+                    return null;
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Terjadi error: {ex.Message}");
-                return null;
-            }
-        }
-
-        private static async Task<string> HandleResponse(HttpResponseMessage response, string loginAs)
-        {
-            if (response.IsSuccessStatusCode)
-            {
-                string responseBody = await response.Content.ReadAsStringAsync();
-                if (loginAs == "admin")
-                {
-                    Console.WriteLine("Login berhasil!");
-                } else
-                {
-                    Console.WriteLine("Login berhasil!");
-                }
-                return responseBody;
-            }
-            else
-            {
-                Console.WriteLine($"Login gagal: {response.StatusCode}");
-                string responseBody = await response.Content.ReadAsStringAsync();
                 return null;
             }
         }
