@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RegistrationAPI\RegistrationAPI.csproj" />
+    <ProjectReference Include="..\SoalManagementLib\SoalManagementLib.csproj" />
+  </ItemGroup>
+
 </Project>

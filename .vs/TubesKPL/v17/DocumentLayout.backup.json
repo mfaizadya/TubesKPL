@@ -3,60 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA18E6E-5AEB-4502-B0DF-2FF1E441FA21}|..\\SoalManagementLib\\SoalManagementLib.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\soalmanagementlib\\soalessay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA18E6E-5AEB-4502-B0DF-2FF1E441FA21}|..\\SoalManagementLib\\SoalManagementLib.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\soalmanagementlib\\soalessaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\registerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:registerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\registrationapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\pelajar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\pelajar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\loginapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\loginapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\loginapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\loginapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\tubeskpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:tubeskpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\registrationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\loginapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C2614AC-4A8D-4C0E-8FA2-18323B683016}|AttemptReview\\AttemptReview.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\attemptreview\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C2614AC-4A8D-4C0E-8FA2-18323B683016}|AttemptReview\\AttemptReview.csproj|solutionrelative:attemptreview\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C2614AC-4A8D-4C0E-8FA2-18323B683016}|AttemptReview\\AttemptReview.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\tubeskpl\\attemptreview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C2614AC-4A8D-4C0E-8FA2-18323B683016}|AttemptReview\\AttemptReview.csproj|solutionrelative:attemptreview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{443657A7-AF4E-4779-B0F7-D4FB9985C836}|..\\RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\rakan\\documents\\telkom\\smt4\\kpl\\registrationapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,180 +53,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginAPI.http",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.http",
-              "RelativeDocumentMoniker": "LoginAPI\\LoginAPI.http",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.http",
-              "RelativeToolTip": "LoginAPI\\LoginAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-13T12:25:23.746Z",
+              "Title": "SoalEssayManager.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\SoalManagementLib\\SoalEssayManager.cs",
+              "RelativeDocumentMoniker": "..\\SoalManagementLib\\SoalEssayManager.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\SoalManagementLib\\SoalEssayManager.cs",
+              "RelativeToolTip": "..\\SoalManagementLib\\SoalEssayManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:41:27.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoalEssay.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\SoalManagementLib\\SoalEssay.cs",
+              "RelativeDocumentMoniker": "..\\SoalManagementLib\\SoalEssay.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\SoalManagementLib\\SoalEssay.cs",
+              "RelativeToolTip": "..\\SoalManagementLib\\SoalEssay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:40:01.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginHelper.cs",
-              "RelativeDocumentMoniker": "LoginHelper.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginHelper.cs",
-              "RelativeToolTip": "LoginHelper.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwB4AAAAnAAAAAAAAAA==",
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\RegisterRequest.cs",
+              "RelativeToolTip": "RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:54:21.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Program.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Program.cs",
-              "RelativeToolTip": "LoginAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:49.691Z",
+              "WhenOpened": "2025-05-14T07:03:16.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Pelajar.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Pelajar.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\Pelajar.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Pelajar.cs",
-              "RelativeToolTip": "LoginAPI\\Pelajar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\RegistrationAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:52.641Z",
+              "WhenOpened": "2025-05-14T07:11:08.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginReq.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginReq.cs",
-              "RelativeDocumentMoniker": "LoginReq.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginReq.cs",
-              "RelativeToolTip": "LoginReq.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Models\\User.cs",
+              "RelativeToolTip": "..\\RegistrationAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:27.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginReq.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginReq.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\LoginReq.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginReq.cs",
-              "RelativeToolTip": "LoginAPI\\LoginReq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:55.377Z",
+              "WhenOpened": "2025-05-14T07:11:48.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Program.cs",
+              "RelativeToolTip": "..\\RegistrationAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:08:05.632Z",
+              "WhenOpened": "2025-05-14T07:20:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\RegisterHelper.cs",
+              "RelativeDocumentMoniker": "RegisterHelper.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\RegisterHelper.cs",
+              "RelativeToolTip": "RegisterHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:03:56.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "..\\RegistrationAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:59:53.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TubesKPL.csproj",
+              "Title": "RegistrationAPI.http",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\RegistrationAPI.http",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\RegistrationAPI.http",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\RegistrationAPI.http",
+              "RelativeToolTip": "..\\RegistrationAPI\\RegistrationAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-14T07:12:33.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAIwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:58:00.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "..\\RegistrationAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:20:47.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TubesKPL",
               "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj",
               "RelativeDocumentMoniker": "TubesKPL.csproj",
               "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj",
               "RelativeToolTip": "TubesKPL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-13T09:55:28.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
-              "RelativeDocumentMoniker": "LoginAPI\\LoginAPI.csproj",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\LoginAPI.csproj",
-              "RelativeToolTip": "LoginAPI\\LoginAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-13T09:55:30.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Admin.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\Admin.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\Admin.cs",
-              "RelativeToolTip": "LoginAPI\\Admin.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAzwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:58.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\LoginAPI\\WeatherForecast.cs",
-              "RelativeToolTip": "LoginAPI\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:43:34.05Z"
+              "WhenOpened": "2025-05-14T07:42:20.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Attempt.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Attempt.cs",
-              "RelativeDocumentMoniker": "Attempt.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\Attempt.cs",
-              "RelativeToolTip": "Attempt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:17:24.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Attempt.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\Attempt.cs",
-              "RelativeDocumentMoniker": "AttemptReview\\Attempt.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\Attempt.cs",
-              "RelativeToolTip": "AttemptReview\\Attempt.cs",
+              "Title": "RegistrationAPI",
+              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\RegistrationAPI.csproj",
+              "RelativeDocumentMoniker": "..\\RegistrationAPI\\RegistrationAPI.csproj",
+              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\RegistrationAPI\\RegistrationAPI.csproj",
+              "RelativeToolTip": "..\\RegistrationAPI\\RegistrationAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:41.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\Program.cs",
-              "RelativeDocumentMoniker": "AttemptReview\\Program.cs",
-              "ToolTip": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\AttemptReview\\Program.cs",
-              "RelativeToolTip": "AttemptReview\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:41:36.419Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T07:11:33.675Z",
+              "EditorCaption": ""
             }
           ]
         }

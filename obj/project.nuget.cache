@@ -1,12 +1,6 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "HObTQ89qmJA=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
-  "expectedPackageFiles": [],
-=======
-  "dgSpecHash": "6hcNazeGI+g=",
+  "dgSpecHash": "nqUq4TnZm/Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\KPL\\TubesKPL\\TubesKPL.csproj",
   "expectedPackageFiles": [
@@ -17,6 +11,5 @@
     "C:\\Users\\Rakan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\Rakan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
->>>>>>> Stashed changes
   "logs": []
 }

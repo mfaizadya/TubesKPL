@@ -1,21 +1,12 @@
-<<<<<<< Updated upstream
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-=======
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TubesKPL.SoalEssayLibrary;
 
 namespace TubesKPL
 {
     class Program
     {
-        public static List<Attempt> Attempts = new List<Attempt>
-        {
-            new Attempt(1, "pela1", "1", 95, DateTime.Now),
-            new Attempt(2, "pela2", "1", 70, DateTime.Now.AddDays(-2))
-        };
-
         static async Task Main(string[] args)
         {
             while (true)
@@ -39,7 +30,6 @@ namespace TubesKPL
 
         static async Task MenuPelajar()
         {
-            string username = null;
             while (true)
             {
                 Console.Clear();
@@ -55,28 +45,26 @@ namespace TubesKPL
 
                 switch (pilihan)
                 {
-                    case "1":
-                        //
+                    case "1": // Registrasi
+                        Console.Write("Masukkan username: ");
+                        var regUser = Console.ReadLine();
+                        Console.Write("Masukkan password: ");
+                        var regPass = Console.ReadLine();
+                        var registerReq = RegisterHelper.CreateRegisterRequest(regUser, regPass, "pelajar");
+                        await RegisterHelper.SendRegisterRequest(registerReq, "pelajar");
                         break;
                     case "2":
-                        Console.Write("Masukkan username: ");
-                        username = Console.ReadLine();
-                        Console.Write("Masukkan password: ");
-                        var pass = Console.ReadLine();
-                        var loginReq = LoginHelper.CreateLoginRequest(username, pass);
-                        await LoginHelper.SendLoginRequest(loginReq, "pelajar");
+                        //
                         break;
                     case "3":
-                        Console.WriteLine("Level sekarang: Level 1 (stub)");
+                        Console.WriteLine("melihat level sekarang... (stub)");
                         break;
+
                     case "4":
                         Console.WriteLine("Mengerjakan soal... (stub)");
                         break;
                     case "5":
-                        if (!string.IsNullOrEmpty(username))
-                            AttemptsReview("pelajar", username);
-                        else
-                            Console.WriteLine("Harap login terlebih dahulu!");
+                        //
                         break;
                     case "6":
                         return;
@@ -98,7 +86,7 @@ namespace TubesKPL
                 Console.WriteLine("==== MENU ADMIN ====");
                 Console.WriteLine("1. Registrasi");
                 Console.WriteLine("2. Login");
-                Console.WriteLine("3. Edit Level (stub termasuk edit soal)");
+                Console.WriteLine("3. Edit Level");
                 Console.WriteLine("4. Review Attempt");
                 Console.WriteLine("5. Logout");
                 Console.Write("Pilih opsi: ");
@@ -106,22 +94,83 @@ namespace TubesKPL
 
                 switch (pilihan)
                 {
-                    case "1":
-                        //
+                    case "1"://Registrasi
+                        Console.Write("Masukkan username: ");
+                        var regUser = Console.ReadLine();
+                        Console.Write("Masukkan password: ");
+                        var regPass = Console.ReadLine();
+                        var registerReq = RegisterHelper.CreateRegisterRequest(regUser, regPass, "admin");
+                        await RegisterHelper.SendRegisterRequest(registerReq, "admin");
                         break;
                     case "2":
-                        Console.Write("Masukkan username: ");
-                        username = Console.ReadLine();
-                        Console.Write("Masukkan password: ");
-                        var pass = Console.ReadLine();
-                        var loginReq = LoginHelper.CreateLoginRequest(username, pass);
-                        await LoginHelper.SendLoginRequest(loginReq, "admin");
+                        //
                         break;
                     case "3":
-                        Console.WriteLine("Edit level & soal... (stub)");
+                        SoalEssayManager soalManager = new SoalEssayManager();
+
+                        Console.Write("Masukkan level: ");
+                        string level = Console.ReadLine();
+
+                        while (true)
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"== Menu Edit Soal Essay Level {level} ==");
+
+                            // Menampilkan soal berdasarkan level
+                            var soalLevel = soalManager.GetSoalsByLevel(int.Parse(level));
+                            if (soalLevel.Count == 0)
+                            {
+                                Console.WriteLine("Tidak ada soal essay di level ini.");
+                            }
+                            else
+                            {
+                                foreach (var soal in soalLevel)
+                                {
+                                    Console.WriteLine($"ID: {soal.Id}, Soal: {soal.Question}");
+                                }
+                            }
+
+                            Console.WriteLine("1. Tambah Soal Essay");
+                            Console.WriteLine("2. Edit Soal Essay");
+                            Console.WriteLine("3. Kembali");
+                            Console.Write("Pilih opsi: ");
+                            var pilihEdit = Console.ReadLine();
+
+                            if (pilihEdit == "1")
+                            {
+                                // Menambahkan soal baru
+                                Console.Write("Masukkan soal essay baru: ");
+                                string soalBaru = Console.ReadLine();
+                                Console.Write("Masukkan jawaban baru: ");
+                                string jawabanBaru = Console.ReadLine();
+                                int newId = soalManager.GetSoalsByLevel(int.Parse(level)).Count + 1;
+                                soalManager.AddSoal(new SoalEssay(newId, soalBaru, jawabanBaru, int.Parse(level)));
+                            }
+                            else if (pilihEdit == "2")
+                            {
+                                // Mengedit soal berdasarkan ID
+                                Console.Write("Masukkan ID soal yang ingin diubah: ");
+                                int id = int.Parse(Console.ReadLine());
+                                Console.Write("Masukkan teks soal essay baru: ");
+                                string teksBaru = Console.ReadLine();
+                                Console.Write("Masukkan jawaban baru: ");
+                                string jawabanBaru = Console.ReadLine();
+                                soalManager.EditSoal(id, teksBaru, jawabanBaru);
+                            }
+                            else if (pilihEdit == "3")
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pilihan tidak valid.");
+                            }
+                            Console.WriteLine("Tekan Enter untuk melanjutkan...");
+                            Console.ReadLine();
+                        }
                         break;
                     case "4":
-                        AttemptsReview("admin", username);
+                        //
                         break;
                     case "5":
                         return;
@@ -133,36 +182,5 @@ namespace TubesKPL
                 Console.ReadLine();
             }
         }
-
-        public static void AttemptsReview(string loginAs, string username)
-        {
-            Console.WriteLine("-----Attempt Review-----");
-            Console.WriteLine("ID\tUsername\tLevel\tScore\tGrade\tDate");
-            foreach (var attempt in Attempts)
-            {
-                if (loginAs == "admin" || attempt.UserName == username)
-                {
-                    Console.WriteLine($"{attempt.AttemptId}\t{attempt.UserName}\t{attempt.Level}\t{attempt.Score}\t{GetGradeByScore(attempt.Score)}\t{attempt.AttemptDate}");
-                }
-            }
-        }
-
-        public static string GetGradeByScore(double score)
-        {
-            string[] grade = { "A", "AB", "B", "BC", "C", "D", "E" };
-            double[] rangeLimit = { 80.0, 70.0, 65.0, 60.0, 50.0, 40.0, 0.0 };
-            int maxGradeLevel = grade.Length - 1;
-
-            string studentGrade = "E";
-            int gradeLevel = 0;
-            while ((studentGrade == "E") && (gradeLevel < maxGradeLevel))
-            {
-                if (score > rangeLimit[gradeLevel])
-                    studentGrade = grade[gradeLevel];
-                gradeLevel++;
-            }
-            return studentGrade;
-        }
     }
 }
->>>>>>> Stashed changes
