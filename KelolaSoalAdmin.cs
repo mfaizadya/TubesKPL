@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public enum AksiSoal { Tambah, Ubah, Hapus }
 
 public class KelolSoalAdmin
 {
@@ -32,10 +31,29 @@ public class KelolSoalAdmin
         }
     }
 
-    private void TambahSoalEsai(Soal soal) {  }
-    private void TambahSoalPG(Soal soal) {  }
-    private void UbahSoalEsai(Soal soal) {  }
-    private void UbahSoalPG(Soal soal) {  }
-    private void HapusSoalEsai(Soal soal) {  }
-    private void HapusSoalPG(Soal soal) { }
+    private void TambahSoalEsai(Soal soal) 
+    {
+        Console.WriteLine($"[Tambah Esai] {soal.Pertanyaan} -> {soal.Jawaban}");
+            
+    }
+    private void TambahSoalPG(Soal soal) 
+    {
+        Console.WriteLine($"[Tambah PG] {soal.Pertanyaan} | Opsi: {string.Join(", ", soal.Opsi)}");
+    }
+    private void UbahSoalEsai(Soal soal) 
+    {
+        Console.WriteLine($"[Ubah Esai] ID: {soal.Id}, Pertanyaan Baru: {soal.Pertanyaan}");
+    }
+    private void UbahSoalPG(Soal soal) 
+    {
+        Console.WriteLine($"[Ubah PG] ID: {soal.Id}, Opsi Baru: {string.Join(", ", soal.Opsi)}");
+    }
+    private void HapusSoalEsai(Soal soal) 
+    {
+        Console.WriteLine($"[Hapus Esai] ID: {soal.Id}");
+    }
+    private void HapusSoalPG(Soal soal) 
+    {
+        Console.WriteLine($"[Hapus PG] ID: {soal.Id}");
+    }
 }

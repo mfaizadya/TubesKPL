@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 public enum JenisSoal { Esai, PilihanGanda }
-
+public enum AksiSoal { Tambah, Ubah, Hapus }
 public class Soal
 {
     public int Id { get; set; }
