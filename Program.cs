@@ -2,6 +2,7 @@
 using System.Linq.Expressions;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace TubesKPL
 {
@@ -25,12 +26,19 @@ namespace TubesKPL
             Console.Write("Masukkan password: ");
             string password = Console.ReadLine();
 
+            Debug.Assert(!string.IsNullOrWhiteSpace(username), "Username tidak boleh kosong");
+            Debug.Assert(!string.IsNullOrWhiteSpace(password), "Password tidak boleh kosong");
+
             var loginReq = LoginHelper.CreateLoginRequest(username,password);
 
             var loginResp = await LoginHelper.SendLoginRequest(loginReq,loginAs);
             if (loginResp != null)
             {
                 LoginResponse loginData = JsonSerializer.Deserialize<LoginResponse>(loginResp);
+
+                Debug.Assert(loginData != null, "Deserialisasi loginResp gagal.");
+                Debug.Assert(!string.IsNullOrWhiteSpace(loginData.username), "Username dari loginData tidak valid");
+                Debug.Assert(!string.IsNullOrWhiteSpace(loginData.nama), "Nama dari loginData tidak valid");
 
                 Console.WriteLine($"Selamat datang {loginData.nama}!");
                 string pilih = "0";

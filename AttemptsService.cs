@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,7 @@ namespace TubesKPL
             {
                 for (i = 0; i < Attempts.Count; i++)
                 {
+                    Debug.Assert(Attempts[i].Score >= 0 && Attempts[i].Score <= 100, "Nilai score di luar batas 0-100");
                     Console.WriteLine($"{Attempts[i].AttemptId}\t{Attempts[i].UserName}\t\t{Attempts[i].Level}\t{Attempts[i].Score}\t{GetGradeByScore(Attempts[i].Score)}\t{Attempts[i].AttemptDate}");
                 }
             }
@@ -32,6 +34,7 @@ namespace TubesKPL
                 {
                     if (Attempts[i].UserName == username)
                     {
+                        Debug.Assert(Attempts[i].Score >= 0 && Attempts[i].Score <= 100, "Nilai score di luar batas 0-100");
                         Console.WriteLine($"{Attempts[i].AttemptId}\t{Attempts[i].UserName}\t\t{Attempts[i].Level}\t{Attempts[i].Score}\t{GetGradeByScore(Attempts[i].Score)}\t{Attempts[i].AttemptDate}");
                     }
                 }
@@ -39,6 +42,7 @@ namespace TubesKPL
         }
         public static string GetGradeByScore(double score)
         {
+            Debug.Assert(score >= 0 && score <= 100, "Score harus berada dalam rentang 0 - 100");
             string[] grade = { "A", "AB", "B", "BC", "C", "D", "E" };
             double[] rangeLimit = { 80.0, 70.0, 65.0, 60.0, 50.0, 40.0, 0.0 };
             int maxGradeLevel = grade.Length - 1;

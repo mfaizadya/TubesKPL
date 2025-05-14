@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace LoginAPI.Controllers
 {
@@ -23,7 +24,6 @@ namespace LoginAPI.Controllers
         public ActionResult<Pelajar> Login([FromBody] LoginReq req)
         {
             int i;
-
             if (req == null || string.IsNullOrWhiteSpace(req.Username) || string.IsNullOrWhiteSpace(req.Password))
             {
                 return BadRequest("Username dan password harus diisi.");
