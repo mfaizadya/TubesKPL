@@ -68,3 +68,5 @@ C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\bin\Debug\net8.0\RegistrationA
 C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\bin\Debug\net8.0\SoalManagementLib.pdb
 C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\obj\Debug\net8.0\TubesKPL.csproj.AssemblyReference.cache
 C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\obj\Debug\net8.0\TubesKPL.csproj.Up2Date
+C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Rakan\Documents\Telkom\SMT4\KPL\TubesKPL\bin\Debug\net8.0\users.json
