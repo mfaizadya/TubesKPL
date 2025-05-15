@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\testproject\\admincontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|solutionrelative:testproject\\admincontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\testproject\\pelajarcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|solutionrelative:testproject\\pelajarcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginapi\\controllers\\pelajarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\controllers\\pelajarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\testproject\\attemptgradetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DAC069-6797-4CB6-B434-E89EE8C0F9EA}|TestProject\\TestProject.csproj|solutionrelative:testproject\\attemptgradetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\attemptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:attemptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9346460-A5D7-C976-07D5-AEECFE522C19}|TubesKPL.csproj|solutionrelative:attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginapi\\loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\loginreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|c:\\users\\rva\\source\\repos\\tubeskpl\\loginapi\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12683D84-9BE3-435B-AE6D-0E51E5D0BDBC}|LoginAPI\\LoginAPI.csproj|solutionrelative:loginapi\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,132 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "LoginAPI\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "LoginAPI\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginResponse.cs",
+              "RelativeToolTip": "LoginAPI\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:17:16.025Z",
+              "WhenOpened": "2025-05-15T16:25:56.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\AdminControllerTest.cs",
-              "RelativeDocumentMoniker": "TestProject\\AdminControllerTest.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\AdminControllerTest.cs",
-              "RelativeToolTip": "TestProject\\AdminControllerTest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:15:54.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PelajarControllerTest.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\PelajarControllerTest.cs",
-              "RelativeDocumentMoniker": "TestProject\\PelajarControllerTest.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\PelajarControllerTest.cs",
-              "RelativeToolTip": "TestProject\\PelajarControllerTest.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:01:00.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AttemptsService.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\AttemptsService.cs",
-              "RelativeDocumentMoniker": "AttemptsService.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\AttemptsService.cs",
-              "RelativeToolTip": "AttemptsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:47:07.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:08:05.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Attempt.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Attempt.cs",
-              "RelativeDocumentMoniker": "Attempt.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Attempt.cs",
-              "RelativeToolTip": "Attempt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:40:05.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PelajarController.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\Controllers\\PelajarController.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\Controllers\\PelajarController.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\Controllers\\PelajarController.cs",
-              "RelativeToolTip": "LoginAPI\\Controllers\\PelajarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwCMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:25:09.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginReq.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginReq.cs",
-              "RelativeDocumentMoniker": "LoginAPI\\LoginReq.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginAPI\\LoginReq.cs",
-              "RelativeToolTip": "LoginAPI\\LoginReq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:41:32.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AttemptGradeTest.cs",
-              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\AttemptGradeTest.cs",
-              "RelativeDocumentMoniker": "TestProject\\AttemptGradeTest.cs",
-              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\TestProject\\AttemptGradeTest.cs",
-              "RelativeToolTip": "TestProject\\AttemptGradeTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:40:17.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "LoginHelper.cs",
               "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginHelper.cs",
               "RelativeDocumentMoniker": "LoginHelper.cs",
               "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\LoginHelper.cs",
               "RelativeToolTip": "LoginHelper.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:19:00.437Z",
+              "WhenOpened": "2025-05-15T16:22:07.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\RVA\\source\\repos\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:08:05.632Z",
               "EditorCaption": ""
             }
           ]

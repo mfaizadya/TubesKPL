@@ -4,19 +4,12 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using LoginAPI;
 
 namespace TubesKPL
 {
     public static class LoginHelper
     {
-        public static LoginReq CreateLoginRequest(string username, string password)
-        {
-            return new LoginReq
-            {
-                Username = username,
-                Password = password
-            };
-        }
 
         public static async Task<string> SendLoginRequest(LoginReq loginReq, string loginAs)
         {

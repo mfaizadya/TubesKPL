@@ -3,6 +3,7 @@ using System.Linq.Expressions;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using LoginAPI;
 
 namespace TubesKPL
 {
@@ -29,7 +30,7 @@ namespace TubesKPL
             Debug.Assert(!string.IsNullOrWhiteSpace(username), "Username tidak boleh kosong");
             Debug.Assert(!string.IsNullOrWhiteSpace(password), "Password tidak boleh kosong");
 
-            var loginReq = LoginHelper.CreateLoginRequest(username,password);
+            var loginReq = new LoginReq {Username = username, Password=password };
 
             var loginResp = await LoginHelper.SendLoginRequest(loginReq,loginAs);
             if (loginResp != null)
