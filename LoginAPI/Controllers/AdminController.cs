@@ -31,7 +31,7 @@ namespace LoginAPI.Controllers
             {
                 if (daftarAdmin[i].Username == req.Username && daftarAdmin[i].Password == req.Password)
                 {
-                    return daftarAdmin[i];
+                    return Ok(daftarAdmin[i]);
                 }
             }
             return Unauthorized("Username atau password salah");

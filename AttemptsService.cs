@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TubesKPL
 {
-    class AttemptsService
+    public class AttemptsService
     {
         public static List<Attempt> Attempts = new List<Attempt>
         {

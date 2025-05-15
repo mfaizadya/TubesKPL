@@ -10,10 +10,16 @@
   <ItemGroup>
     <Compile Remove="AttemptReview\**" />
     <Compile Remove="LoginAPI\**" />
+    <Compile Remove="TestProject\**" />
+    <Compile Remove="UnitTestLogin\**" />
     <EmbeddedResource Remove="AttemptReview\**" />
     <EmbeddedResource Remove="LoginAPI\**" />
+    <EmbeddedResource Remove="TestProject\**" />
+    <EmbeddedResource Remove="UnitTestLogin\**" />
     <None Remove="AttemptReview\**" />
     <None Remove="LoginAPI\**" />
+    <None Remove="TestProject\**" />
+    <None Remove="UnitTestLogin\**" />
   </ItemGroup>
 
   <ItemGroup>

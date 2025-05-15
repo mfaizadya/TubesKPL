@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TubesKPL
 {
-    class Attempt
+    public class Attempt
     {
         public int AttemptId { get; set; }
         public string UserName { get; set; }

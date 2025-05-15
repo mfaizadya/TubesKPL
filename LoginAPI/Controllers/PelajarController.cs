@@ -33,7 +33,7 @@ namespace LoginAPI.Controllers
             {
                 if (req.Username == daftarPelajar[i].Username && req.Password == daftarPelajar[i].Password)
                 {
-                    return daftarPelajar[i];
+                    return Ok(daftarPelajar[i]);
                 }
             }
 
